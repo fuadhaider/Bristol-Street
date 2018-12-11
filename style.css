@@ -13,9 +13,6 @@ body {
   
 }
 
-figure {
-  /*width: 25%;*/
-}
 
 img {
   width: 100%;
@@ -41,9 +38,13 @@ li {
   margin: 0;
 }
 
+.section {
+  /*text-align: center;*/
+  padding: 50px;
+}
+
 .main-billboard__div {
-  text-align: center;
-  background-color: blue;
+  /*background-color: blue;*/
   /*opacity: 0.5;*/
   /*overflow: hidden;*/
 }

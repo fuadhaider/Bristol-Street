@@ -9,54 +9,6 @@ body {
   display: none;
 }
 
-/*header*/
-.header {
-  display: flex;
-  flex-direction: row;
-  /*flex-grow: 1;*/
-}
-
-.header__logo {
-  max-width: 30%;
-  /*display: flex;*/
-  /*flex-grow: 1;*/
-}
-
-.header__nav {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.header__nav-display {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.header__nav-display-call {
-  background-color: mediumseagreen;
-  /*padding: 1%;*/
-}
-
-.header__nav-display-call a, i {
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.header__nav-vehicle {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.header__nav-vehicle a {
-  color: black;
-}
-
-.header__nav-vehicle-hamburger {
-  
-}
 
 .menu-div {
   display: none;
@@ -171,27 +123,7 @@ a {
 
 
 @media screen and (min-width: 800px) {
-  .display {
-    display: inline-block;
-  }
   
-  .material-icons.display-none {
-    display: none;
-  }
-  
-  .header__nav-display-a {
-    display: flex;
-    align-items: center;
-  }
-  .header__nav-display-a a, i {
-    color: black;
-    font-size: 1.5vw;
-  }
-  
-  .header__nav-vehicle {
-    justify-content: space-around;
-  }
-
   .automobile-menu {
     flex-direction: row;
     justify-content: space-between;

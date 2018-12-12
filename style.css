@@ -9,6 +9,10 @@ body {
   display: flex;
 }
 
+.header__logo {
+  width: 25%;
+}
+
 .display-nav {
   
 }
@@ -61,30 +65,64 @@ li {
   -webkit-box-sizing: border-box;
 }
 .main-billboard {
-  position: relative;
+  /*position: relative;*/
+  
 }
 
 .main-billboard__figure {
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .section {
   /*text-align: center;*/
-  padding: 50px;
+  padding: 10px;
 }
 
-.main-billboard__div {
+/*.main-billboard__div {*/
   /*background-color: blue;*/
   /*opacity: 0.5;*/
   /*overflow: hidden;*/
-}
+/*}*/
 .main-billboard__article {
-  position: absolute;
-  top: 0;
-  margin: auto;
+  /*width: 80%;*/
+  /*position: absolute;*/
+  /*top: 10px;*/
+  margin: 0 20px;
   background-color: white;
   opacity: 0.8;
 }
+
+.main-billboard__anchor {
+  text-decoration: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 20px;
+}
+
+.grey-section {
+  background-color: grey;
+  padding: 5%;
+}
+
+.grey-section__container {
+  display: flex;
+  flex-direction: column;
+  color: darkgrey;
+}
+
+.grey-section__container-writing {
+  color: lightgrey;
+  padding-top: 1%;
+}
+
+.grey-section__container-item-anchor {
+  color: white;
+  text-align: left;
+  padding: 2%;
+  display: inline-block;
+}
+
+
 
 @media screen and (min-width: 600px) {
   .automobile-menu {
@@ -103,4 +141,25 @@ li {
   .automobile-menu__content-item {
     padding: 10px;
   }
-}.automobile-menu__content-item
+  
+  .main-billboard {
+    position: relative;
+  }
+  .main-billboard__article {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 35%;
+    font-size: 2vw;
+  }
+  .section {
+    padding: 5%;
+  }
+  
+  .grey-section__container {
+    flex-direction: row;
+  }
+  /*.grey-section__container-item {
+    width: 50%;
+  }*/
+}

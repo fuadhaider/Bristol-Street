@@ -17,27 +17,55 @@
         <img src="https://www.bristolstreetversa.com/custom/51649.png"
         alt="Logo">
       </div>
-      <nav class="display-nav">
-        <a href="#">Contrast<i class="material-icons" style="background-color:black">&#xe167;</i>
-        <i class="material-icons" style="background-color:black;color:white">&#xe167;</i></a>
-        <a href="#">Font Size<i class="material-icons">&#xe145;</i><i class="material-icons">remove</i></a>
-        <a href="#">Download a Brochure</a>
-        <a href="#">Blog</a>
-        <a href="#">Call</a>
-      </nav>
-      <nav>
-        <a href="#">New Vehicles</a>
-        <a href="#">Nearly New/Used Vehicles</a>
-        <a href="#">Motability</a>
-        <a href="#">Aftercare</a>
-        <a href="#">Contact Us</a>
-      </nav>
+      <div class="header__nav">
+        <nav class="header__nav-display">
+          <div class="header__nav-display-a display">
+            <div>Contrast</div>
+            <a href="#"><i class="material-icons">font_download</i></a>
+            <a href="#"><i class="material-icons"
+              style="background-color:black;color:white">font_download</i></a>
+          </div>
+          <div class="header__nav-display-a display">Font Size
+            <a href="#"><i class="material-icons">add_circle_outline</i></a>
+            <a href="#"><i class="material-icons">remove_circle_outline</i></a>
+          </div>
+          <div class="header__nav-display-a display">
+            <a href="#">Download a Brochure</a>
+          </div>
+          <div class="header__nav-display-a display">
+            <a href="#">Blog</a>
+          </div>
+          <span class="header__nav-display-call">
+            <a href="tel:03300425909">
+              <i class="material-icons">phone</i> Call us on 0330 042 5909</a>
+          </span>
+        </nav>
+        <nav class="header__nav-vehicle">
+          <a class="header__nav-vehicle-hamburger material-icons"
+          id="hamburger-div" onclick="dropMenu()">menu</a>
+          <a href="#">New Vehicles</a>
+          <a href="#">Nearly New/Used Vehicles</a>
+          <a href="#">Motability</a>
+          <a href="#">Aftercare</a>
+          <a href="#">Contact Us</a>
+        </nav>
+      </div>
+    </div>
+    
+    <div id="menu-div" class="menu-div">
+      <a href="#">New Vehicles</a>
+      <a href="#">Nearly New/Used Vehicles</a>
+      <a href="#">Motability</a>
+      <a href="#">Aftercare</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Download a Brochure</a>
+      <a href="#">Blog</a>
     </div>
     <nav class="automobile-menu">
       <div class="automobile-menu__content left">
         <a href="#" 
         class="automobile-menu__content-item">Versa Connect <i 
-        class="material-icons">&#xe5c5;</i></a>
+        class="material-icons">arrow_drop_down</i></a>
       </div>
       <div class="automobile-menu__content right">
         <a href="#" class="automobile-menu__content-item current">Overview</a>
@@ -64,12 +92,12 @@
     </div>
     <div>
       <div class="">
-        <a href="#">Dimensions</a>
-        <a href="#">Vehicle Layouts</a>
-        <a href="#">Colour</a>
-        <a href="#">Interior Trim</a>
+        <button onclick="loadSpec('dimension')">Dimensions</button>
+        <button onclick="loadSpec('vehicleLayouts')">Vehicle Layouts</button>
+        <button onclick="loadSpec('colour')">Colour</button>
+        <button onclick="loadSpec('interiorTrim')">Interior Trim</button>
       </div>
-      <div class="ajax">
+      <div id="ajax" class="ajax">
         
       </div>
       <div class="">
@@ -171,5 +199,8 @@
         </form>
       </div>
     </div>
+    <script src="script.js"></script>
+    <script src="colour.js"></script>
+
   </body>
 </html>

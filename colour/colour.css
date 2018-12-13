@@ -1,3 +1,30 @@
 .coloured-car img {
   width: 100%;
 }
+
+.car-colour__colours {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3.5vw;
+}
+
+.car-colour__non-metallic div, .car-colour__metallic div {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .car-colour__colours {
+    flex-direction: row;
+    font-size: 1.7vw;
+  }
+  
+  .car-colour__metallic {
+    padding-left: 1%;
+  }
+  
+  .car-colour__metallic a, .car-colour__non-metallic a {
+    font-size: 5vw;
+  }
+  
+}

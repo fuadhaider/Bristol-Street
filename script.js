@@ -12,20 +12,26 @@ function loadSpec(spec) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("spec-container").innerHTML = this.responseText;
+      document.getElementById('spec-container').innerHTML = this.responseText;
     }
   };
   if (spec == 'dimension') {
-    xhttp.open("GET", "dimension/dimension.html", true);
+    xhttp.open('GET', 'dimension/dimension.html', true);
   }
   else if (spec == 'vehicleLayouts') {
-    xhttp.open("GET", "vehicle-layout/vehicle-layout.html", true);
+    xhttp.open('GET', 'vehicle-layout/vehicle-layout.html', true);
   }
   else if (spec == 'colour') {
-    xhttp.open("GET", "colour/colour.html", true);
+    xhttp.open('GET', 'colour/colour.html', true);
   }
   else if (spec == 'interiorTrim') {
-    xhttp.open("GET", "interior-trim/interior-trim.html", true);
+    xhttp.open('GET', 'interior-trim/interior-trim.html', true);
   }
   xhttp.send();
 }
+
+window.onload = function() {
+  loadSpec('colour');
+  loadColour('red');
+};
+// document.getElementById('colour-body').addEventListener('load', loadColour('red'));

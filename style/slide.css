@@ -1,0 +1,28 @@
+.slide {
+  position: relative;
+}
+
+.slide__figure img {
+  /*margin: 0;*/
+  /*width: 100%;*/
+  display: block;
+  width: 100%;
+}
+
+.prev {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  color: white;
+  opacity: 0.5;
+  font-size: 10vw !important;
+}
+
+.next {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  color: white;
+  opacity: 0.5;
+  font-size: 10vw !important;
+}

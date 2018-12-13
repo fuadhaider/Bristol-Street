@@ -1,10 +1,10 @@
 // responsive menu drop down
 function dropMenu() {
-  var x = document.getElementById('menu-div');
-  if (x.className === 'menu-div') {
+  var x = document.getElementById('dropdown-menu');
+  if (x.className === 'dropdown-menu') {
     x.className += (' menu-drop'); //add menu dropping class
   } else {
-    x.className = 'menu-div';
+    x.className = 'dropdown-menu';
   }
 }
 

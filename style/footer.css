@@ -1,0 +1,31 @@
+.grey-section {
+  background-color: rgb(72, 78, 86);
+  padding: 5%;
+}
+
+.grey-section__container {
+  display: flex;
+  flex-direction: column;
+  color: darkgrey;
+}
+
+.grey-section__container-writing {
+  color: lightgrey;
+  padding-top: 1%;
+}
+
+.grey-section__container-item-anchor {
+  color: white;
+  text-align: left;
+  padding: 2%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+  .grey-section__container {
+    flex-direction: row;
+  }
+  /*.grey-section__container-item {
+    width: 50%;
+  }*/
+}

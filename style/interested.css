@@ -1,0 +1,43 @@
+.interested {
+  background-color: rgb(232, 235, 239);
+}
+
+.interested__article {
+  font-size: 3.5vw;
+  padding: 5%;
+  background-color: white;
+}
+
+.interested__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interested__form input {
+  width: 35%;
+  background-color: rgb(232, 235, 239);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.interested__form a {
+  /*display: block;*/
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+@media screen and (min-width: 800px) {
+  .interested {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .interested__article {
+    width: 30%;
+    font-size: 1.7vw;
+    margin: 5%;
+  }
+  
+}

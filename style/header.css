@@ -5,6 +5,7 @@
 
 .header__logo {
   flex-basis: 30%;
+  border-right: 1px solid lightgrey;
 }
 
 .header__nav {
@@ -16,7 +17,7 @@
 .header__nav-display {
   display: flex;
   justify-content: flex-end;
-  font-size: 2vw;
+  border-bottom: 1px solid lightgrey;
 }
 
 .header__nav-display-call {
@@ -30,7 +31,7 @@
   display: flex;
   align-items: center;
   padding: 1%;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .header__nav-vehicle {
@@ -38,6 +39,7 @@
   align-items: center;
   justify-content: flex-end;
   height: 100%;
+  /*border-top: 1px solid lightgrey;*/
 }
 
 .header__nav-vehicle a {
@@ -46,6 +48,23 @@
 
 .header__nav-vehicle-hamburger {
   
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.menu-drop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid lightgrey;
+}
+
+.dropdown-menu.menu-drop a {
+  padding: 2% 1%;
+  color: black;
+  font-size: 3vw;
 }
 
 

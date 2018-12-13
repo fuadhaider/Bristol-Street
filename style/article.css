@@ -1,0 +1,31 @@
+.article {
+  font-size: 3.5vw;
+  background-color: rgb(232, 235, 239);
+}
+
+.section {
+  /*text-align: center;*/
+  /*padding: 10px;*/
+  padding: 5%;
+}
+
+.article__anchor {
+
+  text-align: center;
+}
+
+.article__anchor a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 2% 3%;
+  border-radius: 5px;
+  color: white;
+  /*margin: auto;*/
+}
+
+@media screen and (min-width: 800px) {
+  .article {
+    font-size: 1.7vw;
+  }
+}

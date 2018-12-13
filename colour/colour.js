@@ -7,31 +7,31 @@ function loadColour(colour) {
   };
   switch (colour) {
     case 'red':
-      xhttp.open("GET", "red.html", true);
+      xhttp.open("GET", "colour/car/red.html", true);
       break;
     case 'black':
-      xhttp.open("GET", "black.html", true);
+      xhttp.open("GET", "colour/car/black.html", true);
       break;
     case 'blazerBlue':
-      xhttp.open("GET", "blazer-blue.html", true);
+      xhttp.open("GET", "colour/car/blazer-blue.html", true);
       break;
     case 'deepImpactBlue':
-      xhttp.open("GET", "deep-impact-blue.html", true);
+      xhttp.open("GET", "colour/car/deep-impact-blue.html", true);
       break;
     case 'guard':
-      xhttp.open("GET", "guard.html", true);
+      xhttp.open("GET", "colour/car/guard.html", true);
       break;
     case 'magnetic':
-      xhttp.open("GET", "magnetic.html", true);
+      xhttp.open("GET", "colour/car/magnetic.html", true);
           break;
     case 'metalicious':
-      xhttp.open("GET", "metalicious.html", true);
+      xhttp.open("GET", "colour/car/metalicious.html", true);
       break;
     case 'silver':
-      xhttp.open("GET", "silver.html", true);
+      xhttp.open("GET", "colour/car/silver.html", true);
       break;
     case 'solar':
-      xhttp.open("GET", "solar.html", true);
+      xhttp.open("GET", "colour/car/solar.html", true);
       break;
     default:
       

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/automobile-menu.css">
     <link rel="stylesheet" href="style/billboard.css">
+    <link rel="stylesheet" href="style/spec.css">
     <link rel="stylesheet" href="style/slide.css">
     <link rel="stylesheet" href="style/article.css">
     <link rel="stylesheet" href="style/footer.css">
@@ -101,18 +102,18 @@
       </div>
     </div>
     
-    <div>
-      <div class="">
+    <div class="spec">
+      <div class="spec__options">
         <button onclick="loadSpec('dimension')">Dimensions</button>
         <button onclick="loadSpec('vehicleLayouts')">Vehicle Layouts</button>
         <button onclick="loadSpec('colour')">Colour</button>
         <button onclick="loadSpec('interiorTrim')">Interior Trim</button>
       </div>
-      <div id="ajax" class="ajax">
+      <div id="spec-container" class="spec__container">
         
       </div>
-      <div class="">
-        <button type="button" name="">View our Versa Connect offers</button>
+      <div class="spec__anchor">
+        <a href="#">View our Versa Connect offers</a>
       </div>
     </div>
     
@@ -216,6 +217,6 @@
     </div>
     
     <script src="script.js"></script>
-    <script src="colour.js"></script>
+    <script src="colour/colour.js"></script>
   </body>
 </html>

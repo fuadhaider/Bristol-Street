@@ -8,6 +8,10 @@
   border-right: 1px solid lightgrey;
 }
 
+.header__logo img {
+  width: 100%;
+}
+
 .header__nav {
   display: flex;
   flex-direction: column;

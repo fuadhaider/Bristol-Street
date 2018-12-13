@@ -1,0 +1,44 @@
+.dimension {
+  display: flex;
+  flex-direction: column;
+}
+
+.dimension__table table {
+  font-size: 1.5vw;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dimension__table th, .dimension__table td {
+  text-align: left;
+  padding-left: 3%;
+  border: 1px solid lightgrey;
+}
+.dimension__table th {
+  border: none;
+}
+
+.dimension__table td:first-child {
+  background-color: rgb(232, 235, 239);
+}
+.dimension__image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .dimension {
+    flex-direction: row;
+  }
+  .dimension__table {
+    width: 100%;
+  }
+  
+  .dimension__table table {
+    font-size: 2vw;
+    width: 100%;
+    height: 100%;
+  }
+  .dimension__image {
+    width: 100%;
+  }
+}

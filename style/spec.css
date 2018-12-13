@@ -1,0 +1,64 @@
+.spec {
+  padding: 2% 5%;
+}
+
+.spec__options {
+  display: flex;
+  justify-content: center;
+}
+
+.spec__options button {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid rgb(43, 78, 135);
+  color: rgb(43, 78, 135);
+  background-color: white;
+  /*border-radius: 5px;*/
+  float: left;
+  text-decoration: none;
+  padding: 1% 3%;
+  font-size: 3vw;
+}
+
+.spec__options button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.spec__options button:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.spec__options button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.spec__options button:active {
+  background-color: rgb(43, 78, 135);
+  color: white;
+}
+
+.spec__container {
+  margin: 2% 0;
+}
+
+.spec__anchor {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.spec__anchor a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 2% 3%;
+  border-radius: 5px;
+  color: white;
+  /*font-size: 1.5;*/
+  /*margin: auto;*/
+}
+
+@media screen and (min-width: 800px) {
+  .spec__anchor a {
+    font-size: 1.7vw;
+  }
+}

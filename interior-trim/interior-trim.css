@@ -1,0 +1,17 @@
+.interior-trim__dashboard img, .interior-trim__option img {
+  width: 100%;
+}
+.interior-trim__option {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .interior-trim__option {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /*.interior-trim__option-item {
+    padding: 1%;
+  }*/
+}

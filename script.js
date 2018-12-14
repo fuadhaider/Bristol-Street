@@ -30,8 +30,17 @@ function loadSpec(spec) {
   xhttp.send();
 }
 
+function dropdownMenu() {
+  let w = document.body.clientWidth;
+  var d = document.getElementById('dropdown-menu');
+  if (w >= 800 ) {
+    d.className = 'dropdown-menu';
+  }
+}
+
 window.onload = function() {
   loadSpec('colour');
-  loadColour('red');
+  setTimeout(loadColour('red'), 500);
 };
-// document.getElementById('colour-body').addEventListener('load', loadColour('red'));
+
+window.addEventListener('resize', dropdownMenu);

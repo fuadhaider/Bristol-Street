@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
 }
+
 .header__nav-display-call a, .header__nav-display-call i  {
   color: white;
   display: flex;
@@ -50,10 +51,6 @@
   color: black;
 }
 
-.header__nav-vehicle-hamburger {
-  
-}
-
 .dropdown-menu {
   display: none;
 }
@@ -70,7 +67,6 @@
   color: black;
   font-size: 3vw;
 }
-
 
 @media screen and (min-width: 800px) {
   .display {
@@ -94,6 +90,7 @@
     color: black;
     /*font-size: 1.2vw;*/
   }
+  
   .header__nav-display-call a, .header__nav-display-call i {
     font-size: 1.2vw;
   }
@@ -105,5 +102,5 @@
   .header__nav-vehicle a {
     font-size: 1.4vw;
   }
-
+  
 }

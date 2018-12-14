@@ -1,0 +1,40 @@
+.header__nav-display {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header__nav-display-call {
+  background-color: mediumseagreen;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-display-call a, .header__nav-display-call i  {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 800px) {
+  .header__nav-display {
+    font-size: 1.2vw;
+  }
+  
+  .header__nav-display-a {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+  }
+  
+  .header__nav-display-a a, .header__nav-display-a i {
+    color: black;
+  }
+  
+  .header__nav-display-call a, .header__nav-display-call i {
+    font-size: 1.2vw;
+  }
+}

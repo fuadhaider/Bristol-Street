@@ -1,10 +1,10 @@
 // responsive menu drop down
 function dropMenu() {
-  var x = document.getElementById('dropdown-menu');
-  if (x.className === 'dropdown-menu') {
-    x.className += (' menu-drop'); //add menu dropping class
+  var d = document.getElementById('dropdown-menu');
+  if (d.className === 'dropdown-menu') {
+    d.className += (' menu-drop'); //add menu dropping class
   } else {
-    x.className = 'dropdown-menu';
+    d.className = 'dropdown-menu';
   }
 }
 
@@ -30,6 +30,7 @@ function loadSpec(spec) {
   xhttp.send();
 }
 
+// drop down menu disappears on browser resize
 function dropdownMenu() {
   let w = document.body.clientWidth;
   var d = document.getElementById('dropdown-menu');
@@ -41,6 +42,8 @@ function dropdownMenu() {
 window.onload = function() {
   loadSpec('colour');
   setTimeout(loadColour('red'), 500);
+  //load inner ajax obj after colour.html dom construction
 };
 
+// drop down menu disappears on browser resize
 window.addEventListener('resize', dropdownMenu);

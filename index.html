@@ -6,7 +6,11 @@
     <meta name="author" content="Fuad Haider">
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="header/header.css">
+    <link rel="stylesheet" href="header/__logo/header__logo.css">
+    <link rel="stylesheet" href="header/__nav-display/header__nav-display.css">
+    <link rel="stylesheet" href="header/_display/header__nav_display.css">
+
     <link rel="stylesheet" href="style/automobile-menu.css">
     <link rel="stylesheet" href="style/billboard.css">
     <link rel="stylesheet" href="style/spec.css">
@@ -29,20 +33,21 @@
       </div>
       <div class="header__nav">
         <nav class="header__nav-display">
-          <div class="header__nav-display-a display">
+          <div class="header__nav-display-a header__nav_display">
             <div>Contrast</div>
             <a href="#"><i class="material-icons">font_download</i></a>
             <a href="#"><i class="material-icons"
               style="background-color:black;color:white">font_download</i></a>
           </div>
-          <div class="header__nav-display-a display">Font Size
+          <div class="header__nav-display-a header__nav_display">
+            <div>Font Size</div>
             <a href="#"><i class="material-icons">add_circle_outline</i></a>
             <a href="#"><i class="material-icons">remove_circle_outline</i></a>
           </div>
-          <div class="header__nav-display-a display">
+          <div class="header__nav-display-a header__nav_display">
             <a href="#">Download a Brochure</a>
           </div>
-          <div class="header__nav-display-a display">
+          <div class="header__nav-display-a header__nav_display">
             <a href="#">Blog</a>
           </div>
           <div class="header__nav-display-call">
@@ -52,17 +57,17 @@
           </div>
         </nav>
         <nav class="header__nav-vehicle">
-          <a class="material-icons display-none"
+          <a class="material-icons header__nav_display-none"
           id="hamburger-div" onclick="dropMenu()">menu</a>
-          <a href="#" class="display">New Vehicles</a>
-          <a href="#" class="display">Nearly New/Used Vehicles</a>
-          <a href="#" class="display">Motability</a>
-          <a href="#" class="display">Aftercare</a>
-          <a href="#" class="display">Contact Us</a>
+          <a href="#" class="header__nav_display">New Vehicles</a>
+          <a href="#" class="header__nav_display">Nearly New/Used Vehicles</a>
+          <a href="#" class="header__nav_display">Motability</a>
+          <a href="#" class="header__nav_display">Aftercare</a>
+          <a href="#" class="header__nav_display">Contact Us</a>
         </nav>
       </div>
     </div>
-    
+    <!-- drop down menu on mobile mode -->
     <nav id="dropdown-menu" class="dropdown-menu">
       <a href="#">New Vehicles</a>
       <a href="#">Nearly New/Used Vehicles</a>
@@ -109,6 +114,7 @@
         <button onclick="loadSpec('colour');loadColour('red')">Colour</button>
         <button onclick="loadSpec('interiorTrim')">Interior Trim</button>
       </div>
+      <!-- single page application ajax container -->
       <div id="spec-container" class="spec__container">
         
       </div>

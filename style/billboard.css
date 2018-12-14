@@ -1,31 +1,13 @@
-.main-billboard {
-  /*position: relative;*/
-  /*background-color: rgb(232, 235, 239);*/
-}
-
 .main-billboard__figure img {
-  /*margin: 0;*/
-  /*width: 100%;*/
   display: block;
   width: 100%;
 }
 
-/*.main-billboard__div {*/
-  /*background-color: blue;*/
-  /*opacity: 0.5;*/
-  /*overflow: hidden;*/
-/*}*/
 .main-billboard__article {
-  /*width: 80%;*/
-  /*position: absolute;*/
-  /*top: 10px;*/
-  /*margin: 0 20px;*/
-  /*padding: 1%;*/
   background-color: white;
   padding: 5%;
   padding-top: 0;
   font-size: 3.5vw;
-
   opacity: 0.8;
 }
 

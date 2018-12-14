@@ -17,12 +17,6 @@
   padding: 2% 0;
 }
 
-/*.current {
-  border-bottom: 5px solid white;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}*/
-
 @media screen and (min-width: 800px) {
   .automobile-menu {
     flex-direction: row;
@@ -41,5 +35,4 @@
   .automobile-menu__content-item {
     padding: 2%;
   }
-  
 }

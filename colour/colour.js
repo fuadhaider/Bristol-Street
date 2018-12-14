@@ -38,6 +38,3 @@ function loadColour(colour) {
   }
   xhttp.send();
 }
-
-// document.onload = function() {loadColour('red')};
-// document.getElementById('colour-body').addEventListener('load', loadColour('red'));

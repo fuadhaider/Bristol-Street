@@ -1,0 +1,12 @@
+.header__nav_display {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .header__nav_display {
+    display: flex;
+  }
+  .material-icons.header__nav_display-none {
+    display: none;
+  }
+}

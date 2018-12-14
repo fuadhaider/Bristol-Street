@@ -1,0 +1,8 @@
+.header__logo {
+  width: 30%;
+  border-right: 1px solid lightgrey;
+}
+
+.header__logo img {
+  width: 100%;
+}

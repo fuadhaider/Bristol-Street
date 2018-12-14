@@ -21,7 +21,6 @@
 }
 
 .interested__form a {
-  /*display: block;*/
   background-color: dodgerblue;
   color: white;
   border-radius: 5px;
@@ -38,6 +37,5 @@
     width: 30%;
     font-size: 1.7vw;
     margin: 5%;
-  }
-  
+  }  
 }

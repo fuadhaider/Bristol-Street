@@ -12,6 +12,12 @@
   padding: 1% 3%;
 }
 
+.interior-trim__option-item-caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .interior-trim__dashboard {
   padding-bottom: 2%;
 }

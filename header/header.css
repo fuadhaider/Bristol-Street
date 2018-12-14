@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.header__nav-vehicle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.header__nav-vehicle a {
+  color: black;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.menu-drop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid lightgrey;
+}
+
+.dropdown-menu.menu-drop a {
+  padding: 2% 1%;
+  color: black;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 800px) {
+  .display {
+    display: inline-block;
+  }
+  
+  .header__nav-vehicle {
+    justify-content: space-around;
+  }
+  
+  .header__nav-vehicle a {
+    font-size: 1.4vw;
+  }
+}

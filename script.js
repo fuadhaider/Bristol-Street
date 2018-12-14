@@ -41,7 +41,7 @@ function dropdownMenu() {
 
 window.onload = function() {
   loadSpec('colour');
-  setTimeout(loadColour('red'), 500);
+  setTimeout(loadColour('red'), 1000);
   //load inner ajax obj after colour.html dom construction
 };
 
